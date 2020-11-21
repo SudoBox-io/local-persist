@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM debian:buster
 ENV VERSION v1.3.0
 ENV ARCH amd64
 ADD https://github.com/SudoBox-io/local-persist/releases/download/${VERSION}/local-persist-linux-${ARCH} /usr/bin/docker-volume-local-persist
